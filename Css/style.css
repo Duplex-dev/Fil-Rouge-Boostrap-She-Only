@@ -1,0 +1,189 @@
+body{
+    background-color: #f9f9f9;
+}
+/*////////////// HEADER////////////////*/
+.navbar-brand{
+    font-family: vidaloka;
+    font-size: 30px;
+    font-weight: 5px;
+    text-align: center;
+    color: black;
+}
+.rose{
+    color: #fF66C4;
+}
+ .nav-link{
+    padding: 2px;
+    font-weight: bold;
+    transition: 0.4s;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*//////////MAIN IMAGE//////////*/
+
+.main{
+    margin-top: 10px;
+    height: auto;
+}
+/*///////////STEP////////*/
+.row{
+    margin-top: 15px;
+}
+p{
+    font-size: 20px;
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
+#vidéo{
+    margin-bottom: 10px;
+}
+/*///////////PRODUITS//////////*/
+h3{
+    background-color: #c4c4c4;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 100%;
+}
+/*/////////////POSSIBILITIES////////////*/
+#pinceaux{
+    background: url("../images/pinceaux.jpg");
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.btn-pin{
+    margin: auto;
+    display: block;
+    margin-top: 50%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.btn-pin:hover{
+    background-color: #fF66C4;
+}
+#accéssoires{
+    background: url("../images/Accéssoires1.jpg");
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.btn-access{
+    margin: auto;
+    display: block;
+    margin-top: 50%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.4s; 
+}
+.btn-access:hover{
+    background-color: #fF66C4;
+}
+#petits-appareils{
+    background: url("../images/petitsappareils.jpg");
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.btn-pm{
+    margin: auto;
+    display: block;
+    margin-top: 50%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.4s; 
+}
+.btn-pm:hover{
+    background-color: #fF66C4;
+}
+/*//////////FOOTER/////////*/
+footer{
+    background-color: #c4c4c4;
+
+}
+.social-media li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.social-media{
+    padding: 0px;
+}
+.social-media li a{
+    margin: 10px;
+    color: #000;
+    transition: 0.4s;
+    font-size: 25px;
+}
+
+.fab:hover{
+    color: #fF66C4;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;    
+}
+.politics{
+  padding: 10px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+.politics li{
+    
+    list-style: none;
+    /* display: inline-block; */
+} 
+.politics li a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.4s;
+}
+.politics li a:hover{
+    color: #fF66C4;
+}
+.payments ul{
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.payments ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.payments ul li i{  
+    transition: 0.4s; 
+    font-size: 20px;
+}
+

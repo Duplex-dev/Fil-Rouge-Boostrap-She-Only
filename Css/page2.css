@@ -1,0 +1,160 @@
+body{
+    background-color: #f9f9f9;
+}
+/*/////////HEADER////////*/
+.navbar-brand{
+    font-family: vidaloka;
+    font-size: 30px;
+    font-weight: 5px;
+    text-align: center;
+    color: black;
+}
+.rose{
+    color: #fF66C4;
+}
+ .nav-link{
+    padding: 2px;
+    font-weight: bold;
+    transition: 0.4s;
+    font-family:'Times New Roman', Times, serif;
+}
+.main{
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.head-contact h2{ 
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #c4c4c4;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+.head-contact p
+{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p
+{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-form
+{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #ffffff;; 
+    padding:20px 40px;
+    outline: none;
+    color:black;
+    transition:0.5s;
+}
+.contact-form-text:focus
+{
+    box-shadow: 0 0 10px 4px #ff66c4;
+}
+.textarea.contact-form-text
+{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn
+{
+    float: right;
+    border: 0;
+    background: #c4c4c4;
+    color: black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover
+{
+    background: #ff66c4;
+}
+
+.contact-section
+{
+    background-color: #e6e8ed;
+    padding: 40px 0;
+}
+/*///////FOOTER///////*/
+footer{
+    background-color: #c4c4c4;
+    margin-top: 10px;
+
+}
+.social-media li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.social-media{
+    padding: 0px;
+}
+.social-media li a{
+    margin: 10px;
+    color: #000;
+    transition: 0.4s;
+    font-size: 25px;
+}
+
+.fab:hover{
+    color: #fF66C4;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;    
+}
+.politics{
+  padding: 10px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+.politics li{
+    
+    list-style: none;
+    /* display: inline-block; */
+} 
+.politics li a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.4s;
+}
+.politics li a:hover{
+    color: #fF66C4;
+}
+.payments ul{
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.payments ul li{
+    list-style: none; 
+    display: inline-block;
+    padding: 10px;
+}
+.payments ul li i{  
+    transition: 0.4s; 
+    font-size: 20px;
+}
